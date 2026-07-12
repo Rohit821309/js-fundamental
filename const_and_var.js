@@ -1,0 +1,11 @@
+const  accountId = 12345;
+let accountName = "Rohit";
+let accountPassword = "1234";
+let accountCity = "New York";
+let accountState ;
+// accountId = 4561; 
+accountName = "harish";
+accountPassword = "5632";
+accountCity = "Los Angeles";
+console.log(accountId);
+console.table([accountName, accountPassword, accountCity, accountState]);
