@@ -33,5 +33,26 @@ let boolIsLoggedIn1 = Boolean(IsLoggedIn);
 // string conversion
 let number = 34;
 let stringNumber = String(number);
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+//********************************Operations *************************
+// so here are some operations in js
+let str1 = "hello"
+let str2 = " Rohit"
+let str3 = str1 + str2;
+console.log(str3);
+console.log("1" + 1); // 11
+console.log("1" - 1); // 0
+console.log(1 + "1"); // 11
+console.log("1" + 1 + 1); // 111
+console.log(1 + 1 + "1"); // 21
+console.log(+true); // 1
+console.log(+""); // 0
+
+// prefix and postfix
+let counter = 100;
+counter++;
+console.log(counter); // 101
+++counter;
+console.log(counter); // 102
