@@ -32,5 +32,5 @@ console.log(MyUserId.replace("%20", "-"))
 console.log(MyUserId.includes("rohit"))
 // split just give strings or convert  in a array formate
 console.log(newString.split("-"))
-
+// we can go through more methods of string
 
