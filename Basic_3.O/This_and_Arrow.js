@@ -48,3 +48,21 @@ const chai_Tea= () => {
     
 }
 chai_Tea()
+// it also gives empty value
+// basic arrow function
+const AddNumber = (num1,num2)=>{
+    return num1 + num2
+}
+console.log(AddNumber(4,5));
+// implicit return:- in this case there are no requeirment of paranthesis
+const SomeMore = (number1, number2) => (number1 + number2)
+console.log(SomeMore(46789, 788463));
+// but whene we have to return
+const NameReturn = (NameOfUser) => ({NameOfUser})
+console.log(NameReturn("Rabi"))
+
+
+
+
+
+
